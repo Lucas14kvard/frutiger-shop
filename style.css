@@ -276,23 +276,37 @@ header h1 {
 }
 
 .product-info h2 {
-    font-size: 1.3em;
-    color: #2c5f5b;
+    font-size: 1.5em;
+    font-weight: 800;
+    background: linear-gradient(135deg, #5bdfcd, #3ba89f, #87ceeb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 5px;
+    text-shadow: 0 0 20px rgba(91,223,205,0.5);
 }
 
 .product-price {
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-weight: 800;
-    color: #ff8a80;
+    background: linear-gradient(135deg, #4dc9f6, #a0e9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
     margin-bottom: 15px;
-    text-shadow: 0 0 15px rgba(255,138,128,0.5);
+    text-shadow: 0 0 20px rgba(77,201,246,0.6);
 }
 
 .product-desc {
-    color: #5a8a85;
+    color: #1a5c5a;
+    font-size: 1.1em;
+    font-weight: 600;
     line-height: 1.6;
     margin-bottom: 20px;
+    background: linear-gradient(135deg, #1a8a85, #3ba89f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .btn-order {
