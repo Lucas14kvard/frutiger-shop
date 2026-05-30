@@ -144,8 +144,10 @@ header h1 {
 .product-card .price {
     font-size: 1.1em;
     font-weight: 800;
-    color: #ff8a80;
-    text-shadow: 0 0 10px rgba(255, 138, 128, 0.4);
+    background: linear-gradient(135deg, #4dc9f6, #a0e9ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .modal-overlay {
@@ -298,7 +300,6 @@ header h1 {
 }
 
 .product-desc {
-    color: #1a5c5a;
     font-size: 1.1em;
     font-weight: 600;
     line-height: 1.6;
